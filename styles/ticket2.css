@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.container
+{
+    max-width:700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container.title
+{
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 3px;
+    width: 30px;
+    background: #9b59b6;
+
+}
+.container form .user-details
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+form .user-details.input-box
+{
+    width: calc(100 / 2 -20px);
+}

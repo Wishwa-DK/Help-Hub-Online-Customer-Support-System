@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+h3
+{
+    text-align: center;
+}
+.package {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.package.platinum {
+    background-color: #ff8c00; /* Dark Orange for Platinum */
+
+}
+
+.package.gold {
+    background-color: #ffd700; /* Gold for Gold */
+
+}
+
+.package.silver {
+    background-color: #c0c0c0; /* Silver for Silver */
+}
+
+.buy-button {
+    background-color: #009688;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #009688;
+}
